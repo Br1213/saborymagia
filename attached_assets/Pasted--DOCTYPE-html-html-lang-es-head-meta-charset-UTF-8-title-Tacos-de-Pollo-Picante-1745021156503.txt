@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tacos de Pollo Picante - Sabor y Magia</title>
+  <meta name="description" content="Receta para unos deliciosos Tacos de Pollo Picante con ingredientes frescos y salsa artesanal.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Datos estructurados para la receta -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Recipe",
+      "name": "Tacos de Pollo Picante",
+      "image": "https://saborymagia.com/images/tacos-pollo.jpg",
+      "description": "Tacos con pollo adobado y salsa artesanal, perfectos para una comida rápida y deliciosa.",
+      "recipeIngredient": [
+         "500 g de pollo",
+         "Tortillas de maíz",
+         "Pimienta al gusto",
+         "Comino",
+         "Chile en polvo",
+         "Salsa artesanal",
+         "Cilantro",
+         "Jugo de limón"
+      ],
+      "recipeInstructions": [
+        "Marinar el pollo con pimienta, comino y chile en polvo durante 30 minutos.",
+        "Asar el pollo a la parrilla y cortar en tiras.",
+        "Calentar las tortillas en un comal.",
+        "Ensamblar cada taco con pollo, salsa y cilantro.",
+        "Servir con un chorrito de jugo de limón."
+      ],
+      "totalTime": "PT30M",
+      "recipeCategory": "Plato Principal",
+      "recipeCuisine": "Mexicana",
+      "keywords": "tacos, pollo, picante, cocina mexicana"
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo de Sabor y Magia">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="blog.html">Artículos</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article class="receta-individual">
+      <h1>Tacos de Pollo Picante</h1>
+      <img src="images/tacos-pollo.jpg" alt="Tacos de Pollo Picante llenos de color">
+      <p class="descripcion">
+        Tacos llenos de sabor, con pollo adobado a la perfección y una salsa artesanal que realza cada bocado. Ideal para compartir en familia o con amigos.
+      </p>
+      
+      <section class="ingredientes">
+        <h2>Ingredientes</h2>
+        <ul>
+          <li>500 g de pollo</li>
+          <li>Tortillas de maíz</li>
+          <li>Pimienta al gusto</li>
+          <li>Comino</li>
+          <li>Chile en polvo</li>
+          <li>Salsa artesanal</li>
+          <li>Cilantro fresco</li>
+          <li>Jugo de limón</li>
+        </ul>
+      </section>
+
+      <section class="instrucciones">
+        <h2>Instrucciones</h2>
+        <ol>
+          <li>Marinar el pollo con pimienta, comino y chile en polvo durante 30 minutos.</li>
+          <li>Asar el pollo a la parrilla hasta que esté bien cocido. Cortarlo en tiras.</li>
+          <li>Calentar las tortillas en un comal.</li>
+          <li>Armar cada taco colocando el pollo, la salsa y el cilantro.</li>
+          <li>Agregar un toque de jugo de limón al servir.</li>
+        </ol>
+      </section>
+      
+      <section class="info-extra">
+        <p><strong>Tiempo de preparación:</strong> 30 minutos</p>
+        <p><strong>Raciones:</strong> 4</p>
+      </section>
+
+      <section class="social-share">
+        <p>Comparte esta receta:</p>
+        <a href="#">Facebook</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">Instagram</a>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Sabor y Magia. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

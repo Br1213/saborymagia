@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sabor y Magia: Recetas Irresistibles</title>
+  <meta name="description" content="Bienvenido a Sabor y Magia, el blog de cocina con más de 50 recetas fáciles y deliciosas. Descubre sabores únicos en cada plato.">
+  <meta name="keywords" content="recetas, cocina, blog de cocina, tacos, pasta, postres, comida española, comida mexicana">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Datos estructurados para SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://saborymagia.com",
+      "name": "Sabor y Magia",
+      "description": "Blog de cocina con recetas fáciles y deliciosas",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://saborymagia.com/buscar?query={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.svg" alt="Logo de Sabor y Magia: tenedor y cuchara con destellos mágicos">
+      </a>
+    </div>
+    <nav>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="menu">
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="blog.html">Artículos</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección de banner -->
+    <section class="banner">
+      <div class="banner-img"></div>
+      <div class="banner-text">
+        <h1>Bienvenidos a Sabor y Magia</h1>
+        <p>Descubre más de 50 recetas irresistibles que encantarán tu paladar.</p>
+        <a href="recetas.html" class="btn-primary">Ver Recetas</a>
+      </div>
+    </section>
+
+    <!-- Sección de categorías -->
+    <section class="categorias">
+      <h2>Explora por Categoría</h2>
+      <div class="categoria-container">
+        <a href="recetas.html#entradas" class="categoria">
+          <div class="categoria-icon"><i class="fas fa-cheese"></i></div>
+          <h3>Entradas</h3>
+        </a>
+        <a href="recetas.html#principales" class="categoria">
+          <div class="categoria-icon"><i class="fas fa-drumstick-bite"></i></div>
+          <h3>Platos Principales</h3>
+        </a>
+        <a href="recetas.html#postres" class="categoria">
+          <div class="categoria-icon"><i class="fas fa-ice-cream"></i></div>
+          <h3>Postres</h3>
+        </a>
+        <a href="recetas.html#bebidas" class="categoria">
+          <div class="categoria-icon"><i class="fas fa-cocktail"></i></div>
+          <h3>Bebidas</h3>
+        </a>
+      </div>
+    </section>
+
+    <!-- Sección de recetas destacadas -->
+    <section class="destacados">
+      <h2>Recetas Destacadas</h2>
+      <div class="grid-recetas">
+        <article class="receta">
+          <div class="receta-img" style="background-image: url('https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="receta-content">
+            <h3><a href="receta-tacos-pollo.html">Tacos de Pollo Picante</a></h3>
+            <p>Tacos con pollo adobado y salsa artesanal.</p>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 30 min</span>
+              <span><i class="fas fa-fire"></i> Media</span>
+            </div>
+            <a href="receta-tacos-pollo.html" class="btn-secondary">Ver Receta</a>
+          </div>
+        </article>
+
+        <article class="receta">
+          <div class="receta-img" style="background-image: url('https://images.unsplash.com/photo-1589119908995-c6d7e5c5f3c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="receta-content">
+            <h3><a href="receta-pasta-boloniesa.html">Pasta a la Boloñesa</a></h3>
+            <p>Pasta con salsa boloñesa tradicional italiana.</p>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 45 min</span>
+              <span><i class="fas fa-fire"></i> Fácil</span>
+            </div>
+            <a href="receta-pasta-boloniesa.html" class="btn-secondary">Ver Receta</a>
+          </div>
+        </article>
+
+        <article class="receta">
+          <div class="receta-img" style="background-image: url('https://images.unsplash.com/photo-1515443961218-a51367888e4b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="receta-content">
+            <h3><a href="receta-paella.html">Paella Valenciana</a></h3>
+            <p>Auténtica paella española con mariscos frescos.</p>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 60 min</span>
+              <span><i class="fas fa-fire"></i> Avanzada</span>
+            </div>
+            <a href="receta-paella.html" class="btn-secondary">Ver Receta</a>
+          </div>
+        </article>
+
+        <article class="receta">
+          <div class="receta-img" style="background-image: url('https://images.unsplash.com/photo-1562967915-92ae0c320a01?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="receta-content">
+            <h3><a href="receta-gazpacho.html">Gazpacho Andaluz</a></h3>
+            <p>Sopa fría española, perfecta para días calurosos.</p>
+            <div class="meta">
+              <span><i class="far fa-clock"></i> 15 min</span>
+              <span><i class="fas fa-fire"></i> Fácil</span>
+            </div>
+            <a href="receta-gazpacho.html" class="btn-secondary">Ver Receta</a>
+          </div>
+        </article>
+      </div>
+      <div class="ver-mas">
+        <a href="recetas.html" class="btn-primary">Ver Todas las Recetas</a>
+      </div>
+    </section>
+
+    <!-- Sección de subscripción -->
+    <section class="subscribe">
+      <div class="subscribe-content">
+        <h2>¡Recibe Nuevas Recetas!</h2>
+        <p>Suscríbete a nuestro boletín y descubre recetas exclusivas cada semana.</p>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Tu correo electrónico" required>
+          <button type="submit" class="btn-primary">Suscribirse</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Sección de últimos artículos -->
+    <section class="ultimos-articulos">
+      <h2>Últimos Artículos</h2>
+      <div class="articulos-grid">
+        <article class="articulo">
+          <div class="articulo-img" style="background-image: url('https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="articulo-content">
+            <h3><a href="blog.html">Los Secretos del Sofrito Perfecto</a></h3>
+            <p>Aprende a preparar un sofrito que será la base de tus mejores platos.</p>
+            <a href="blog.html" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="articulo">
+          <div class="articulo-img" style="background-image: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="articulo-content">
+            <h3><a href="blog.html">Hierbas Aromáticas que No Pueden Faltar</a></h3>
+            <p>Guía esencial de hierbas aromáticas para transformar tus recetas.</p>
+            <a href="blog.html" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="images/logo.svg" alt="Logo de Sabor y Magia">
+        <p>Descubre el placer de cocinar</p>
+      </div>
+      <div class="footer-links">
+        <h3>Enlaces rápidos</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="recetas.html">Recetas</a></li>
+          <li><a href="blog.html">Artículos</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h3>Síguenos</h3>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Sabor y Magia. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

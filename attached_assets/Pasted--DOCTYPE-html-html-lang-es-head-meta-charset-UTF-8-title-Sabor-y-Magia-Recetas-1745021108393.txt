@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sabor y Magia: Recetas Irresistibles</title>
+  <meta name="description" content="Bienvenido a Sabor y Magia, el blog de cocina con más de 50 recetas fáciles y deliciosas. Descubre sabores únicos en cada plato.">
+  <meta name="keywords" content="recetas, cocina, blog de cocina, tacos, pasta, postres">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Datos estructurados para SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://saborymagia.com",
+      "name": "Sabor y Magia",
+      "description": "Blog de cocina con recetas fáciles y deliciosas",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://saborymagia.com/buscar?query={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Logo de Sabor y Magia: tenedor y cuchara con destellos mágicos">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="blog.html">Artículos</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección de banner -->
+    <section class="banner">
+      <img src="images/banner.jpg" alt="Imagen de banner: Platos variados y coloridos">
+      <div class="banner-text">
+        <h1>Bienvenidos a Sabor y Magia</h1>
+        <p>Descubre más de 50 recetas irresistibles que encantarán tu paladar.</p>
+      </div>
+    </section>
+
+    <!-- Sección de recetas destacadas -->
+    <section class="destacados">
+      <h2>Recetas Destacadas</h2>
+      <div class="grid-recetas">
+        <!-- Ejemplo de receta destacada -->
+        <article class="receta">
+          <img src="images/tacos-pollo.jpg" alt="Tacos de Pollo Picante llenos de color">
+          <h3><a href="receta-tacos-pollo.html">Tacos de Pollo Picante</a></h3>
+          <p>Tacos con pollo adobado y salsa artesanal.</p>
+        </article>
+        <!-- Puedes incluir más recetas destacadas aquí -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sabor y Magia. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

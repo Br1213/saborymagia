@@ -1,0 +1,30 @@
+<svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo del logotipo (opcional) -->
+  <rect width="150" height="80" fill="transparent"/>
+  
+  <!-- Texto "Sabor y Magia" -->
+  <text x="75" y="35" font-family="'Montserrat', sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#ffffff">Sabor y</text>
+  <text x="75" y="60" font-family="'Montserrat', sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#ffffff">Magia</text>
+  
+  <!-- Elemento decorativo: Tenedor -->
+  <path d="M30,15 L30,45 L35,50 L40,45 L40,15 M30,25 L40,25" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- Elemento decorativo: Cuchara -->
+  <path d="M110,15 L110,45 L105,50 L100,45 L100,15" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <ellipse cx="105" cy="17" rx="5" ry="7" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- Destellos mágicos -->
+  <path d="M50,20 L55,25 M60,15 L57,20 M65,25 L60,30" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+  <circle cx="52" cy="18" r="1" fill="#ffffff"/>
+  <circle cx="62" cy="22" r="1" fill="#ffffff"/>
+  <circle cx="57" cy="27" r="1" fill="#ffffff"/>
+  
+  <path d="M85,20 L90,25 M95,15 L92,20 M100,25 L95,30" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+  <circle cx="87" cy="18" r="1" fill="#ffffff"/>
+  <circle cx="97" cy="22" r="1" fill="#ffffff"/>
+  <circle cx="92" cy="27" r="1" fill="#ffffff"/>
+  
+  <!-- Elemento decorativo: sombrero de chef -->
+  <path d="M75,10 C65,10 60,15 60,20 C60,25 70,25 75,25 C80,25 90,25 90,20 C90,15 85,10 75,10 Z" fill="#ffffff" opacity="0.1"/>
+  <path d="M75,10 C65,10 60,15 60,20 C60,25 70,25 75,25 C80,25 90,25 90,20 C90,15 85,10 75,10 Z" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+</svg>

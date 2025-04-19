@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Sabor y Magia</title>
+  <meta name="description" content="¿Tienes preguntas, sugerencias o quieres colaborar con nosotros? Contáctanos y forma parte de la comunidad de Sabor y Magia.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Datos estructurados para SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contacto Sabor y Magia",
+      "description": "Página de contacto del blog de cocina Sabor y Magia",
+      "url": "https://saborymagia.com/contacto.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Sabor y Magia",
+        "url": "https://saborymagia.com"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.svg" alt="Logo de Sabor y Magia">
+      </a>
+    </div>
+    <nav>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="blog.html">Artículos</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <h1>Contacto</h1>
+      <p>¿Tienes preguntas, sugerencias o quieres colaborar con nosotros? ¡Escríbenos!</p>
+    </div>
+
+    <section class="contact-section">
+      <div class="contact-grid">
+        <div class="contact-form-container">
+          <h2>Envíanos un Mensaje</h2>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Nombre completo <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Asunto <span class="required">*</span></label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="privacy" name="privacy" required>
+              <label for="privacy">He leído y acepto la <a href="#">política de privacidad</a> <span class="required">*</span></label>
+            </div>
+            <button type="submit" class="btn-primary">Enviar Mensaje</button>
+          </form>
+          <div class="form-success" id="form-success" style="display: none;">
+            <div class="success-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>¡Mensaje enviado con éxito!</h3>
+            <p>Gracias por ponerte en contacto con nosotros. Te responderemos lo antes posible.</p>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <h2>Información de Contacto</h2>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info-content">
+              <h3>Correo Electrónico</h3>
+              <p><a href="mailto:info@saborymagia.com">info@saborymagia.com</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-content">
+              <h3>Ubicación</h3>
+              <p>Barcelona, España</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="info-content">
+              <h3>Horario de atención</h3>
+              <p>Lunes a Viernes: 9:00 - 18:00</p>
+            </div>
+          </div>
+          <div class="social-contact">
+            <h3>Síguenos en Redes Sociales</h3>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <h2>Preguntas Frecuentes</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>¿Cómo puedo sugerir una receta?</h3>
+            <button class="faq-toggle"><i class="fas fa-chevron-down"></i></button>
+          </div>
+          <div class="faq-answer">
+            <p>Puedes sugerir una receta usando nuestro formulario de contacto. Indica claramente en el asunto "Sugerencia de Receta" y proporciona todos los detalles posibles, incluyendo ingredientes, instrucciones y, si es posible, la historia detrás de la receta.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>¿Puedo colaborar como escritor en el blog?</h3>
+            <button class="faq-toggle"><i class="fas fa-chevron-down"></i></button>
+          </div>
+          <div class="faq-answer">
+            <p>¡Absolutamente! Siempre estamos buscando colaboradores apasionados por la cocina hispana. Envíanos un mensaje con el asunto "Colaboración Blog" junto con ejemplos de tu trabajo anterior y algunas ideas de temas sobre los que te gustaría escribir.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>¿Ofrecen talleres o cursos de cocina?</h3>
+            <button class="faq-toggle"><i class="fas fa-chevron-down"></i></button>
+          </div>
+          <div class="faq-answer">
+            <p>Actualmente organizamos talleres en línea mensualmente. Para obtener información sobre las próximas fechas y cómo inscribirte, suscríbete a nuestro boletín o contáctanos directamente mencionando tu interés en los talleres.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <h3>¿Puedo usar sus recetas en mi negocio?</h3>
+            <button class="faq-toggle"><i class="fas fa-chevron-down"></i></button>
+          </div>
+          <div class="faq-answer">
+            <p>Nuestras recetas están protegidas por derechos de autor. Para uso comercial, es necesario obtener un permiso por escrito. Contáctanos para discutir posibles colaboraciones o licencias.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="subscribe-content">
+        <h2>Mantente Informado</h2>
+        <p>Suscríbete para recibir nuestras últimas recetas, artículos y eventos directamente en tu bandeja de entrada.</p>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Tu correo electrónico" required>
+          <button type="submit" class="btn-primary">Suscribirse</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="images/logo.svg" alt="Logo de Sabor y Magia">
+        <p>Descubre el placer de cocinar</p>
+      </div>
+      <div class="footer-links">
+        <h3>Enlaces rápidos</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="recetas.html">Recetas</a></li>
+          <li><a href="blog.html">Artículos</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h3>Síguenos</h3>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Sabor y Magia. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

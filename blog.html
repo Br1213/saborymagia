@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog de Cocina - Sabor y Magia</title>
+  <meta name="description" content="Artículos sobre técnicas culinarias, ingredientes tradicionales, historia gastronómica y más. Amplía tus conocimientos sobre cocina hispana con Sabor y Magia.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Datos estructurados para SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Blog de Cocina Sabor y Magia",
+      "description": "Artículos sobre técnicas culinarias, ingredientes, historia gastronómica y más",
+      "url": "https://saborymagia.com/blog.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Sabor y Magia",
+        "url": "https://saborymagia.com"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.svg" alt="Logo de Sabor y Magia">
+      </a>
+    </div>
+    <nav>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="blog.html" class="active">Artículos</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <h1>Blog de Cocina</h1>
+      <p>Artículos, consejos y secretos del mundo gastronómico hispano</p>
+    </div>
+
+    <section class="filter-section">
+      <div class="filter-container">
+        <div class="search-bar">
+          <input type="text" id="search-blog" placeholder="Buscar artículos...">
+          <button type="button"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="filter-options">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="tecnicas">Técnicas</button>
+          <button class="filter-btn" data-filter="ingredientes">Ingredientes</button>
+          <button class="filter-btn" data-filter="historia">Historia</button>
+          <button class="filter-btn" data-filter="consejos">Consejos</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-article">
+      <div class="featured-article-image" style="background-image: url('https://images.unsplash.com/photo-1556911073-38141963c9e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80')">
+      </div>
+      <div class="featured-article-content">
+        <span class="article-category">Historia</span>
+        <h2>El Origen de la Paella: Un Viaje por Valencia</h2>
+        <p class="article-meta">
+          <span class="author"><i class="fas fa-user"></i> Por María Rodríguez</span>
+          <span class="date"><i class="far fa-calendar-alt"></i> 15 marzo, 2025</span>
+        </p>
+        <p class="article-excerpt">
+          Descubre el fascinante origen de uno de los platos más emblemáticos de la cocina española. Desde los humildes campos de arroz valencianos hasta las mesas más prestigiosas del mundo...
+        </p>
+        <a href="#" class="btn-secondary">Leer artículo completo</a>
+      </div>
+    </section>
+
+    <section class="blog-articles">
+      <h2>Artículos Recientes</h2>
+      <div class="articles-grid">
+        <article class="blog-article" data-category="tecnicas">
+          <div class="article-img" style="background-image: url('https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="article-content">
+            <span class="article-category">Técnicas</span>
+            <h3><a href="#">Los Secretos del Sofrito Perfecto</a></h3>
+            <p class="article-meta">
+              <span class="date"><i class="far fa-calendar-alt"></i> 10 marzo, 2025</span>
+            </p>
+            <p>Aprende a preparar un sofrito que será la base de tus mejores platos. Esta técnica fundamental de la cocina mediterránea es la clave para añadir profundidad de sabor.</p>
+            <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-article" data-category="ingredientes">
+          <div class="article-img" style="background-image: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="article-content">
+            <span class="article-category">Ingredientes</span>
+            <h3><a href="#">Hierbas Aromáticas que No Pueden Faltar</a></h3>
+            <p class="article-meta">
+              <span class="date"><i class="far fa-calendar-alt"></i> 5 marzo, 2025</span>
+            </p>
+            <p>Guía esencial de hierbas aromáticas para transformar tus recetas. Desde el romero hasta el cilantro, descubre cómo cada hierba puede elevar tus platos.</p>
+            <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-article" data-category="consejos">
+          <div class="article-img" style="background-image: url('https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="article-content">
+            <span class="article-category">Consejos</span>
+            <h3><a href="#">Cómo Elegir el Aceite de Oliva Perfecto</a></h3>
+            <p class="article-meta">
+              <span class="date"><i class="far fa-calendar-alt"></i> 28 febrero, 2025</span>
+            </p>
+            <p>Una guía completa para entender los diferentes tipos de aceite de oliva y cómo elegir el más adecuado para cada preparación culinaria.</p>
+            <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-article" data-category="historia">
+          <div class="article-img" style="background-image: url('https://images.unsplash.com/photo-1559305616-3f99cd43e353?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="article-content">
+            <span class="article-category">Historia</span>
+            <h3><a href="#">La Influencia Árabe en la Cocina Española</a></h3>
+            <p class="article-meta">
+              <span class="date"><i class="far fa-calendar-alt"></i> 20 febrero, 2025</span>
+            </p>
+            <p>Explora cómo ocho siglos de presencia árabe transformaron para siempre la gastronomía española, desde las especias hasta las técnicas de cocción.</p>
+            <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-article" data-category="tecnicas">
+          <div class="article-img" style="background-image: url('https://images.unsplash.com/photo-1513135467880-6c5f6cd4b10e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="article-content">
+            <span class="article-category">Técnicas</span>
+            <h3><a href="#">Cortes Básicos que Todo Cocinero Debe Dominar</a></h3>
+            <p class="article-meta">
+              <span class="date"><i class="far fa-calendar-alt"></i> 15 febrero, 2025</span>
+            </p>
+            <p>Desde el brunoise hasta el chiffonade, conoce los cortes fundamentales que te permitirán mejorar tus habilidades y la presentación de tus platos.</p>
+            <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-article" data-category="ingredientes">
+          <div class="article-img" style="background-image: url('https://images.unsplash.com/photo-1502825751399-28bdd55354c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80')"></div>
+          <div class="article-content">
+            <span class="article-category">Ingredientes</span>
+            <h3><a href="#">El Azafrán: El Oro Rojo de la Cocina Española</a></h3>
+            <p class="article-meta">
+              <span class="date"><i class="far fa-calendar-alt"></i> 10 febrero, 2025</span>
+            </p>
+            <p>Todo lo que necesitas saber sobre esta valiosa especia: cómo elegirla, conservarla y utilizarla para sacar el máximo partido a tus recetas.</p>
+            <a href="#" class="leer-mas">Leer más <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Paginación -->
+    <div class="pagination">
+      <button class="pagination-btn active">1</button>
+      <button class="pagination-btn">2</button>
+      <button class="pagination-btn">3</button>
+      <button class="pagination-btn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Sección de subscripción -->
+    <section class="subscribe">
+      <div class="subscribe-content">
+        <h2>¡No Te Pierdas Nada!</h2>
+        <p>Suscríbete a nuestro boletín y recibe nuestros nuevos artículos y consejos directamente en tu correo.</p>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Tu correo electrónico" required>
+          <button type="submit" class="btn-primary">Suscribirse</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="images/logo.svg" alt="Logo de Sabor y Magia">
+        <p>Descubre el placer de cocinar</p>
+      </div>
+      <div class="footer-links">
+        <h3>Enlaces rápidos</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="recetas.html">Recetas</a></li>
+          <li><a href="blog.html">Artículos</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h3>Síguenos</h3>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Sabor y Magia. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
